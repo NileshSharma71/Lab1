@@ -1,5 +1,9 @@
-s1=str(input("Enter a three digit value: "))
-k=int(s1[0])
-j=int(s1[1])
-a=int(s1[2])
-print(k+j+a)
+s1=int(input("Enter a three digit value: "))
+g=s1/100
+k=int(g)
+# print(k)
+op=(s1%100)//10
+# print(op)
+kl=s1%10
+# print(kl)
+print(k+op+kl)
