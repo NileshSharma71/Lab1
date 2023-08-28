@@ -1,0 +1,5 @@
+s1=str(input("Enter a three digit value: "))
+k=int(s1[0])
+j=int(s1[1])
+a=int(s1[2])
+print(k+j+a)
